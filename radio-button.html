@@ -3,25 +3,59 @@
     <head>
         <title>Radio Button</title>
 </head>
-<body>
+<body style="background-color:rgb(211, 255, 255);">
         <form>
-            Flavour:<br>
-            <input type="radio" name="flavour" value="vanilla" > Vanilla<br> 
-            <input type="radio" name="flavour" value="chocolate" > Chocolate<br>
-            <input type="radio" name="flavour" value="strawberry" > Strawberry<br> 
+             Gender:<br>
+            <input type="radio" name="Gender" value="Male" > Male<br> 
+            <input type="radio" name="Gender" value="Female" > Female<br>
+            <input type="radio" name="Gender" value="non-binary" > non-binary<br> 
             <button type="button">submit!</button><br>
         </form>
 
         <form>
-            Color:<br>
+            Subscription time:<br>
 
-            <input type="radio" name="color" value="yellow" > Yellow<br>
+            <input type="radio" name="Subscription time" value="2 weeks" > 2 weeks<br>
 
-            <input type="radio" name="color" value="blue" > Blue<br>
+            <input type="radio" name="Subscription time" value="4 weeks" > 4 weeks<br>
 
-            <input type="radio" name="color" value="red" > Red<br>
+            <input type="radio" name="Subscription time" value="6 weeks" > 6 weeks<br>
 
             <button type="button">submit!</button>
         </form>
+
+        <h1>Choose your preferred flavour of cakes</h1>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="flavour1" name="flavour1" value="Vanilla">
+  <label for="vehicle1"> Vanilla</label><br>
+  <input type="checkbox" id="flavour2" name="flavour2" value="Chocolate">
+  <label for="vehicle2"> Chocolate</label><br>
+  <input type="checkbox" id="flavour3" name="flavour3" value="Strawberry">
+  <label for="vehicle3"> Strawberry</label><br><br>
+</form>
+
+<h1>Choose your preferred Color of cakes</h1>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="color1" name="color1" value="Yellow">
+  <label for="color2"> Yellow</label><br>
+  <input type="checkbox" id="color2" name="color2" value="Blue">
+  <label for="color2"> Blue</label><br>
+  <input type="checkbox" id="color3" name="color3" value="Red">
+  <label for="color3"> Red</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+<button onclick="document.location='dropdown-list.html'">Next page</button>
+<button onclick="document.location='index.html'">Previous page</button>
+
+<style>
+    body {
+      background-image: url('https://i.pinimg.com/originals/17/9b/bf/179bbfb984ea29194f2d68025b6c524f.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
 </body>
 </html>    
